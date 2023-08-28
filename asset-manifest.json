@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DownOnCoffee/Iptracker.git/static/css/main.656ea4fd.chunk.css",
+    "main.js": "/DownOnCoffee/Iptracker.git/static/js/main.a203cb03.chunk.js",
+    "main.js.map": "/DownOnCoffee/Iptracker.git/static/js/main.a203cb03.chunk.js.map",
+    "runtime-main.js": "/DownOnCoffee/Iptracker.git/static/js/runtime-main.6af851fe.js",
+    "runtime-main.js.map": "/DownOnCoffee/Iptracker.git/static/js/runtime-main.6af851fe.js.map",
+    "static/css/2.8fd33c24.chunk.css": "/DownOnCoffee/Iptracker.git/static/css/2.8fd33c24.chunk.css",
+    "static/js/2.ae881c60.chunk.js": "/DownOnCoffee/Iptracker.git/static/js/2.ae881c60.chunk.js",
+    "static/js/2.ae881c60.chunk.js.map": "/DownOnCoffee/Iptracker.git/static/js/2.ae881c60.chunk.js.map",
+    "static/js/3.f8344b92.chunk.js": "/DownOnCoffee/Iptracker.git/static/js/3.f8344b92.chunk.js",
+    "static/js/3.f8344b92.chunk.js.map": "/DownOnCoffee/Iptracker.git/static/js/3.f8344b92.chunk.js.map",
+    "index.html": "/DownOnCoffee/Iptracker.git/index.html",
+    "static/css/2.8fd33c24.chunk.css.map": "/DownOnCoffee/Iptracker.git/static/css/2.8fd33c24.chunk.css.map",
+    "static/css/main.656ea4fd.chunk.css.map": "/DownOnCoffee/Iptracker.git/static/css/main.656ea4fd.chunk.css.map",
+    "static/js/2.ae881c60.chunk.js.LICENSE.txt": "/DownOnCoffee/Iptracker.git/static/js/2.ae881c60.chunk.js.LICENSE.txt",
+    "static/media/pattern-bg-desktop.5013c4f5.png": "/DownOnCoffee/Iptracker.git/static/media/pattern-bg-desktop.5013c4f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6af851fe.js",
+    "static/css/2.8fd33c24.chunk.css",
+    "static/js/2.ae881c60.chunk.js",
+    "static/css/main.656ea4fd.chunk.css",
+    "static/js/main.a203cb03.chunk.js"
+  ]
+}
