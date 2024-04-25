@@ -74,6 +74,7 @@ function IpTracker() {
       </div>
       <div className="maindiv">
         <h2>TraceSpot</h2>
+        <h1>TraceSpot</h1>
 
         <div className="ipaddsearch">
           <input

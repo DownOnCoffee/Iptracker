@@ -11,7 +11,7 @@ body{
     height:320px;
    
 }
-h2{
+h1{
     text-align: center;
     font-weight: 500;
     font-size: 35px
@@ -78,7 +78,7 @@ p{
     font-size:15px;
 }
 .maininfo{
-    color:black;
+    color:red;
     font-size:26px;
     font-weight: 600;
     text-align: center;
@@ -101,62 +101,3 @@ p{
     padding-top:10px;
     margin:0;
 }
-@media (max-width: 850px) {
-    .mapcontainer{
-        width:425px;
-        margin:0;
-        padding:0;
-        z-index: 0;
-    }
-
-    .infocontainer{
-        
-        flex-direction: column;
-        width:300px;
-        position: absolute;
-        top: 170px; 
-        left: 10px;
-        z-index: 1000;
-        padding:12px;
-        border-radius: 15px;
-        
-    }
-    .griddiv{
-        
-        width:150px;
-        height:50px;
-        flex-direction: column;
-        border-bottom:1px solid grey;
-        border-right:1px solid transparent;
-        padding:0px;
-        padding-bottom:40px;
-    }
-    .bgcontainer{
-        width:427px;
-    }
-    .maininfo{
-        font-size:17px;
-        margin-top:0;
-        padding:0;
-        
-    }
-    .maindiv{
-        left:8%;
-        
-    }
-    MarkerPosition{
-        z-index:10000;
-
-    }
-    
-  }
-/* @media (max-width: 380px) {
-    .mapcontainer{
-        width:450px;
-        margin:0;
-        padding:0;
-        z-index: 0;
-    }
-    
-
-} */
