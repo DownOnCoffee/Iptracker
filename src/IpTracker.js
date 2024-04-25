@@ -6,6 +6,7 @@ import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer } from "react-leaflet";
 import MarkerPosition from "./MarkerPosition";
 import searchlogo from "./images/searchh.png";
+import bluebg2 from "./images/pattern-bg-mobile.png"
 
 function IpTracker() {
   const [ipData, setIpData] = useState({
@@ -69,10 +70,10 @@ function IpTracker() {
     <>
    
       <div>
-        <img className="bgcontainer" src={bluebg}></img>
+        <img className="bgcontainer" src={window.screen.width<=425?bluebg2:bluebg}></img>
       </div>
       <div className="maindiv">
-        <h2>IP Address Tracker</h2>
+        <h2>TraceSpot</h2>
 
         <div className="ipaddsearch">
           <input
@@ -100,7 +101,7 @@ function IpTracker() {
           </div>
           <div className="griddiv">
             <p className="infoheading">Location</p>
-            <p className="maininfo">{ipData.loc}</p>
+            <p className="maininfo" id="locationgrid">{ipData.loc}</p>
           </div>
           <div className="griddiv">
             <p className="infoheading">TimeZone</p>
@@ -117,7 +118,8 @@ function IpTracker() {
       <MapContainer
         center={myArray.length === 0 ? [51.505, -0.09] : myArray}
         zoom={13}
-        style={{ height: "500px" }}
+        // style={{ height: "500px",width: "600px" }}
+        className="mapcontainer"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
